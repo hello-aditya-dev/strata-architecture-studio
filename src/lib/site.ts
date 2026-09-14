@@ -4,7 +4,7 @@ export const site = {
   tagline: "Architecture with consequence.",
   description:
     "STRATA is an integrated architecture, engineering and construction studio. We design buildings, places and structures whose work deserves to be experienced, not listed.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://strata-studio.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://strata-studio.vercel.app",
   email: "commissions@strata.studio",
   press: "press@strata.studio",
   phone: "+47 22 00 41 90",
